@@ -49,7 +49,7 @@ nexus-publish-gradle = { module = "io.github.gradle-nexus:publish-plugin", versi
 
 [bundles]
 log4j = ["log4j-impl", "log4j-core"]
-neo4j = ["neo4j-ogm-core", "neo4j-ogm", "neo4j-ogm-bolt"]
+neo4j = ["neo4j-ogm-core", "neo4j-ogm-bolt"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin"}
