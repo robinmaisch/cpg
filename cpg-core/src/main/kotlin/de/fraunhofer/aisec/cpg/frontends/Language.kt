@@ -167,7 +167,8 @@ abstract class Language<T : LanguageFrontend<*, *>> : Node() {
                 }
             "-",
             "*",
-            "/" -> arithmeticOpTypePropagation(operation.lhs.type, operation.rhs.type)
+            "/",
+			"%", -> arithmeticOpTypePropagation(operation.lhs.type, operation.rhs.type)
             "&",
             "|",
             "^",
